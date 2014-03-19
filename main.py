@@ -15,4 +15,4 @@ rclient.login(data['user']['name'], data['user']['password'])
 greeter_bot = GreeterBot(rclient, data['greeted_authors_backup'], data['greeting'])
 
 print('Watching for new authors to greet...')
-greeter_bot.watch('itggreeter')
+greeter_bot.watch(data['subreddit'])
