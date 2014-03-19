@@ -1,5 +1,7 @@
 from time import sleep
-from throttler import Throttler
+
+from lib.throttler import Throttler
+
 
 throttler = Throttler(10, 10)
 

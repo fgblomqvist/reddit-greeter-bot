@@ -1,7 +1,8 @@
 import json
-from greeter_bot import GreeterBot
-from throttler import Throttler
-from reddit_api_client import RedditAPIClient
+
+from lib.greeter_bot import GreeterBot
+from lib.throttler import Throttler
+from lib.reddit_api_client import RedditAPIClient
 
 
 # get the login details from settings.json
