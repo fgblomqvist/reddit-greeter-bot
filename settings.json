@@ -1,0 +1,9 @@
+{
+    "user_agent": "my-bot/1.0 by [USERNAME]",
+    "user": {
+        "name": "[USERNAME]",
+        "password": "[PASSWORD]"
+    },
+    "greeted_authors_backup": "greeted_authors.json",
+    "greeting": "Welcome {name}!\n\nI hope you will enjoy your time in this subreddit!"
+}

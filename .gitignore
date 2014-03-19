@@ -1,0 +1,4 @@
+.idea
+*.py[cod]
+
+greeted_authors.json
